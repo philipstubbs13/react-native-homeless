@@ -11,7 +11,7 @@
 <pre>
 git clone https://github.com/philipstubbs13/react-native-homeless.git
 cd react-native-homeless
-<pre>
+</pre>
 
 2. Install the project dependencies
 
