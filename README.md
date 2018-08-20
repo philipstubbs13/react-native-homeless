@@ -31,6 +31,8 @@ The project dependencies are:
 * React Native
   * react-native
   * react-native-scripts
+  * react-native-extended-stylesheet
+  * react-navigation
 * Testing
   * jest-expo
   * react-test-renderer
@@ -38,3 +40,5 @@ The project dependencies are:
   * react
 * Expo
   * expo
+* Javascript
+  * moment
