@@ -17,7 +17,7 @@ cd react-native-homeless
 
 <pre>
 yarn install
-<pre>
+</pre>
 
 The project dependencies are:
 
