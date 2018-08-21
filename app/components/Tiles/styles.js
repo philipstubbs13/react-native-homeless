@@ -13,10 +13,14 @@ export default EStyleSheet.create({
     padding: 50,
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'stretch',
     flexGrow: 0,
     flexShrink: 0,
     flexBasis: '49.75%',
     marginBottom: '.5%',
-  }
+  },
+  text: {
+    color: '$white',
+    fontSize: 20,
+  },
 });

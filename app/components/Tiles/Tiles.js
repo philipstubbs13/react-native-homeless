@@ -6,26 +6,26 @@ const Tiles = () => (
   <View>
     <View style={styles.tileRow}>
       <View style={styles.tile}>
-        <Text>Using the app</Text>
+        <Text style={styles.text}>Using the app</Text>
       </View>
       <View style={styles.tile}>
-        <Text>Emergency</Text>
-      </View>
-    </View>
-    <View style={styles.tileRow}>
-      <View style={styles.tile}>
-        <Text>Shelters</Text>
-      </View>
-      <View style={styles.tile}>
-        <Text>Food Shelves</Text>
+        <Text style={styles.text}>Emergency</Text>
       </View>
     </View>
     <View style={styles.tileRow}>
       <View style={styles.tile}>
-        <Text>Bible</Text>
+        <Text style={styles.text}>Shelters</Text>
       </View>
       <View style={styles.tile}>
-        <Text>Feedback</Text>
+        <Text style={styles.text}>Food Shelves</Text>
+      </View>
+    </View>
+    <View style={styles.tileRow}>
+      <View style={styles.tile}>
+        <Text style={styles.text}>Bible</Text>
+      </View>
+      <View style={styles.tile}>
+        <Text style={styles.text}>Feedback</Text>
       </View>
     </View>
   </View>
