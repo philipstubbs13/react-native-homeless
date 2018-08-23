@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TextInput, TouchableHighlight } from 'react-native';
+import { View, Text, TextInput, TouchableHighlight, Button } from 'react-native';
 
 import styles from './styles';
 
@@ -13,7 +13,19 @@ const AppInput = (props) => {
       </View>
       <View>
         <Text style={styles.text}>Comments</Text>
-        <TextInput style={styles.input} underlineColorAndroid="transparent" {...props} />
+        <TextInput
+          style={styles.input}
+          underlineColorAndroid="transparent"
+          multiline={true}
+          numberOfLines={5}
+          {...props}
+        />
+        <Button
+          onPress={onPress}
+          title="Send feedback"
+          color='dodgerblue'
+          accessibilityLabel="Send feedback"
+        />
       </View>
     </View>
   );

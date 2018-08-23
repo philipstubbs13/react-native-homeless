@@ -37,6 +37,7 @@ export default EStyleSheet.create({
         fontSize: 18,
         paddingHorizontal: 16,
         color: '$inputText',
+        backgroundColor: '$white',
         borderRadius: 4,
         borderWidth: 0.5,
         borderColor: '$border',
