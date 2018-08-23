@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { Container } from '../components/Container';
-import { Tiles } from '../components/Tiles';
 import { Header } from '../components/Header';
 
-class Home extends Component {
+class Food extends Component {
   
   render() {
     return (
       <Container>
         <Header />
-        <Tiles />
+        <Text>Food Shelves</Text>
       </Container>
     );
   }
 }
 
-export default Home;
+export default Food;

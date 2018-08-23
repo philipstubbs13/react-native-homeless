@@ -6,7 +6,7 @@ class Tiles extends Component {
 
   handleHelpPress = () => {
     console.log('Help press');
-    // this.props.navigation.navigate('Options');
+    this.props.navigation.navigate('Help');
   };
 
   handleEmergencyPress = () => {
@@ -38,39 +38,27 @@ class Tiles extends Component {
     return (
       <View>
         <View style={styles.tileRow}>
-          <TouchableOpacity onPress={this.handleHelpPress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Using the app</Text>
-            </View>
+          <TouchableOpacity onPress={this.handleHelpPress} style={styles.tile}>
+            <Text style={styles.text}>Using the app</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={this.handleEmergencyPress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Emergency</Text>
-            </View>
+          <TouchableOpacity onPress={this.handleEmergencyPress} style={styles.tile}>
+            <Text style={styles.text}>Emergency</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.tileRow}>
-          <TouchableOpacity onPress={this.handleSheltersPress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Shelters</Text>
-            </View> 
+          <TouchableOpacity onPress={this.handleSheltersPress} style={styles.tile}>
+            <Text style={styles.text}>Shelters</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={this.handleFoodPress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Food Shelves</Text>
-            </View>
+          <TouchableOpacity onPress={this.handleFoodPress} style={styles.tile}>
+            <Text style={styles.text}>Food Shelves</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.tileRow}>
-          <TouchableOpacity onPress={this.handleBiblePress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Bible</Text>
-            </View>
+          <TouchableOpacity onPress={this.handleBiblePress} style={styles.tile}>
+            <Text style={styles.text}>Bible</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={this.handleFeedbackPress}>
-            <View style={styles.tile}>
-              <Text style={styles.text}>Feedback</Text>
-            </View>
+          <TouchableOpacity onPress={this.handleFeedbackPress} style={styles.tile}>
+            <Text style={styles.text}>Feedback</Text>
           </TouchableOpacity>
         </View>
       </View>

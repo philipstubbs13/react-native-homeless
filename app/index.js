@@ -2,6 +2,12 @@ import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 import Home from './screens/Home';
+import Help from './screens/Help';
+import Emergency from './screens/Emergency';
+import Feedback from './screens/Feedback';
+import Food from './screens/Food';
+import Shelters from './screens/Shelters';
+import Bible from './screens/Bible';
 
 EStyleSheet.build({
     $primaryBlue: '#4F607A',
