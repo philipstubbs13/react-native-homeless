@@ -1,5 +1,5 @@
 import { StatusBar } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 
 import Home from '../screens/Home';
 import Help from '../screens/Help';
@@ -9,7 +9,7 @@ import Food from '../screens/Food';
 import Shelters from '../screens/Shelters';
 import Bible from '../screens/Bible';
 
-const HomeStack = StackNavigator({
+const HomeStack = createStackNavigator({
   Home: {
     screen: Home,
     navigationOptions: {
@@ -56,7 +56,7 @@ const HomeStack = StackNavigator({
   headerMode: 'screen',
 });
 
-export default StackNavigator({
+export default createStackNavigator({
   Home: {
     screen: HomeStack,
   },

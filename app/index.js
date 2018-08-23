@@ -9,6 +9,8 @@ import Food from './screens/Food';
 import Shelters from './screens/Shelters';
 import Bible from './screens/Bible';
 
+import Navigator from './config/routes';
+
 EStyleSheet.build({
     $primaryBlue: '#4F607A',
     $primaryOrange: '#D57A66',

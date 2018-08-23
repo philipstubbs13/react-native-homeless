@@ -10,6 +10,6 @@ const Tile = (props) => {
       <Text style={styles.text}>{tileText}</Text>
     </TouchableOpacity>
   );
-}
+};
 
 export default Tile;

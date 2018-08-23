@@ -9,7 +9,7 @@ class Home extends Component {
 
   handleHelpPress = () => {
     console.log('Help press');
-    // 
+    this.props.navigation.navigate('Help'); 
   };
 
   handleEmergencyPress = () => {
