@@ -24,4 +24,4 @@ EStyleSheet.build({
 });
 
 
-export default () => <Home />;
+export default () => <Feedback />;

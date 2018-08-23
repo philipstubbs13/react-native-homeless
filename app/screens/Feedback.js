@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
+import { AppInput } from '../components/AppInput';
+
+import styles from './styles';
 
 class Feedback extends Component {
   
@@ -9,7 +12,7 @@ class Feedback extends Component {
     return (
       <Container>
         <Header />
-        <Text>Feedback</Text>
+        <AppInput />
       </Container>
     );
   }
