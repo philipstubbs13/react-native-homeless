@@ -7,11 +7,11 @@ const AppInput = (props) => {
 //   const { onPress, buttonText, editable = true } = props;
 
   return (
-    <View>
+    <View style={styles.feedback}>
       <View>
         <Text style={styles.text}>Please rate your experience with the app</Text>
       </View>
-      <View>
+      <View style={styles.commentSection}>
         <Text style={styles.text}>Comments</Text>
         <TextInput
           style={styles.input}
@@ -21,7 +21,6 @@ const AppInput = (props) => {
           {...props}
         />
         <Button
-          onPress={onPress}
           title="Send feedback"
           color='dodgerblue'
           accessibilityLabel="Send feedback"
