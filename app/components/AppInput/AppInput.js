@@ -5,6 +5,7 @@ import styles from './styles';
 
 const AppInput = (props) => {
 //   const { onPress, buttonText, editable = true } = props;
+// comment
 
   return (
     <View style={styles.feedback}>
